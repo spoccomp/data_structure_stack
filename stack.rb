@@ -21,13 +21,14 @@ class Stack
     def is_empty?()
         @array.empty?()
     end
+    def the_length_is()
+        @array.length()
+    end
 
 end
 
-rich = Stack.new([1,2,3,4,5])
-puts rich.is_empty?()
-rich.peek()
-rich.show()
+
+
 
 
 
