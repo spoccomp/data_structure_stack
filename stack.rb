@@ -1,7 +1,7 @@
 class Stack
     #this Stack starts from the left, it adds to the right and removes from the right!!!
-    attr_accessor 
-
+    #last in last out
+    
     def initialize(array)
 
         @array = array
@@ -21,7 +21,7 @@ class Stack
     def is_empty?()
         @array.empty?()
     end
-    def the_length_is()
+    def the_length_is()# thought this was rel
         @array.length()
     end
 
